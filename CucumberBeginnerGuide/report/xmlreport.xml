@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.34958">
+<testcase classname="To explain the usage of background" name="To study medicine" time="0.348621">
+<system-out><![CDATA[Given The student finished high school......................................passed
+Given the student finished higher secondary.................................passed
+Given the student applied for the medical course............................passed
+When the student cleared the entrance exam..................................passed
+Then the student is eligible for joining any Medical institute..............passed
+]]></system-out>
+</testcase>
+<testcase classname="To explain the usage of background" name="To study Engineering" time="0.000959">
+<system-out><![CDATA[Given The student finished high school......................................passed
+Given the student finished higher secondary.................................passed
+Given the student applied for the Engineering course........................passed
+When the student has a sayable cut off......................................passed
+Then the student is eligible for joining any Engineering institute..........passed
+]]></system-out>
+</testcase>
+</testsuite>

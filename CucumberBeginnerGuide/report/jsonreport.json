@@ -1,0 +1,220 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Student completed School Education",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 347175774,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The student finished high school",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_finished_high_school()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136353,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the student finished higher secondary",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_finished_higher_secondary()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 772663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To study medicine",
+        "description": "",
+        "id": "to-explain-the-usage-of-background;to-study-medicine",
+        "after": [
+          {
+            "result": {
+              "duration": 122179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundHooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140751,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the student applied for the medical course",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_applied_for_the_medical_course()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131954,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the student cleared the entrance exam",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_cleared_the_entrance_exam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141728,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the student is eligible for joining any Medical institute",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_is_eligible_for_joining_any_Medical_institute()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Student completed School Education",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 145638,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The student finished high school",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_finished_high_school()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126578,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the student finished higher secondary",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_finished_higher_secondary()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 143195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To study Engineering",
+        "description": "",
+        "id": "to-explain-the-usage-of-background;to-study-engineering",
+        "after": [
+          {
+            "result": {
+              "duration": 110450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundHooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 151014,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the student applied for the Engineering course",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_applied_for_the_Engineering_course()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140750,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the student has a sayable cut off",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_has_a_sayable_cut_off()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141728,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the student is eligible for joining any Engineering institute",
+            "match": {
+              "location": "BackgroundExample_Step_Def.the_student_is_eligible_for_joining_any_Engineering_institute()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To explain the usage of background",
+    "description": "",
+    "id": "to-explain-the-usage-of-background",
+    "keyword": "Feature",
+    "uri": "HigherStudies_Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundExample"
+      }
+    ]
+  }
+]
